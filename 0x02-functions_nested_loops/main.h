@@ -1,4 +1,9 @@
 /**
+ * _putchar - prints putchar
+ */
+int _putchar(char c);
+
+/**
  * print_alphabet - prints alphabet in lowercase
  */
 void print_alphabet(void);
