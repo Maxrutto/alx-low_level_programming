@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+int _putchar(char c);
+
 /**
  * binary_to_uint - converts a binary number to an unsigned int
  */
