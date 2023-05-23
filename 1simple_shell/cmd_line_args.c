@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <string.h>
 
-int maxx(void)
+int main(void)
 {
 	char *cmd = NULL,  *cmd_cpy = NULL, *token = NULL;
 	char *delim = " \n";
