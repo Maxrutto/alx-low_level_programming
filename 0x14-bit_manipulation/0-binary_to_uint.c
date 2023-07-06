@@ -1,18 +1,22 @@
+#include <stdio.h>
 #include "main.h"
+#include <stddef.h>
 
 /**
- * binary_to_int - Converts binary to number
+ * binary_to_uint - Converts binary to number
  * @b: Points to a binary representation
  * Return: The decimal value and 0
  * if no return and NULL 'b' value
  */
 
-unsigned int binary_to_int(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
+	unsigned int res;
+
 	if (b == NULL)
 		return (0);
 
-	unsigned int res = 0;
+	res = 0;
 
 	while (*b)
 	{
