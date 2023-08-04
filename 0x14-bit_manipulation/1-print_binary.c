@@ -21,6 +21,6 @@ void print_binary(unsigned long int n)
 			first_one_found = 1;
 		}
 	}
-	if (n == 0)
+	if (!first_one_found)
 		_putchar('0');
 }
