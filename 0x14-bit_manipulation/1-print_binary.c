@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 
 	int first_one_found = 0;
 
-	for (i = bits - 1; i >=0; i--)
+	for (i = bits - 1; i >= 0; i--)
 	{
 		mask = 1UL << i;
 
@@ -21,4 +21,6 @@ void print_binary(unsigned long int n)
 			first_one_found = 1;
 		}
 	}
+	if (n == 0)
+		_putchar('0');
 }
