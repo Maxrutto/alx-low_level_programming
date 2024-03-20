@@ -1,2 +1,1 @@
-#!/bin/bash
-low level programming
+This repository contains files containing programs and functions for low-level programming in C
